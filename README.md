@@ -8,7 +8,7 @@ O Sirin é um projeto para fins academico, cujo seu objetivo é organizar o cont
 -  CSS 3;
 -  Javascript;
 -  Jquery;
--  PHP;
+-  PHP 8x;
 -  MySQL;
 -  Padrão de projeto MVC;
 
