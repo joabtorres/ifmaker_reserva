@@ -19,7 +19,7 @@ O Sirin é um projeto para fins academico, cujo seu objetivo é organizar o cont
 -  select2
 -  jquery.maskedinput
 
--- Acesso Asuário / Administrador:
+-- Acesso Usuário / Administrador:
 
 -  email: joabtorres1508@gmail.com
 -  senha: 123
