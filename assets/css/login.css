@@ -1,0 +1,95 @@
+body{
+     background-color:#f8f9ff;
+}
+.img-center {
+    display: block;
+    margin: auto;
+}
+.font-normal{
+    font-weight: normal;
+    
+}
+/*TELA LOGIN*/
+#interface_login{
+    display: none;
+}
+#tela_login {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 5%;
+    padding: 10px 30px;
+    color: #333;
+    border: 1px solid #00a65a;
+    box-shadow: 0px 0px 2px #cecece;
+    -webkit-box-shadow: 0px 0px 3px 1px #cecece;
+    -moz-box-shadow: 0px 0px 3px 1px #cecece;
+    -o-box-shadow: 0px 0px 3px 1px #cecece;
+}
+#tela_login h4 {
+   background-color: #00a65a;
+    color: white;
+    padding: 10px;
+    margin: 10px -30px;
+    margin-top: 0;
+}
+#tela_login .img-login{
+ margin: 10px auto;
+}
+#tela_login form .input-group>.input-group-addon, #tela_recupera_senha .input-group>.input-group-addon{
+    background-color: #2C853B;
+    border-color: #2C853B ;
+    color: white;
+}
+#tela_login form .input-group>.form-control, #tela_recupera_senha form .input-group>.form-control{
+    border-color: #2C853B;
+}
+#tela_login input[type='submit'] {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+#tela_login p.bg-danger {
+    background-color: rgb(240, 95, 76);
+    color: white;
+    padding: 10px;
+}
+
+#tela_login a {
+    color: #888;
+    float: right;
+    cursor: pointer;
+}
+
+#tela_login a:hover, #tela_login a:focus {
+    text-decoration: none;
+    color: #555;
+    display: inline-block;
+}
+
+#tela_recupera_senha {
+    background-color: #F5F5F5;
+    border: 1px solid rgb(199, 195, 200);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+@media (max-width: 990px) {
+    /*TELA LOGIN*/
+    #tela_login {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 0;
+    }
+    #tela_login img {
+        max-width: 400px
+    }
+}
+
+@media(max-width:640px){
+    #tela_login img {
+        max-width: 300px;
+        min-width: 250px;
+    }
+}

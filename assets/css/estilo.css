@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* TAGS NATIVAS */
+hr{margin: 0}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, a, form, label, input[type='text'], input[type='email'], input[type='number'], textarea, body {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.pull-left{margin-right: 5px;}
+.icon_calendar_search{
+    display: inline-block;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    background-image: url('../imagens/calendar-search.png');
+}
+form label{
+    font-weight: normal!important;
+}
+/* CLASSES GLOBAIS*/
+.pagination{
+    margin: 0;
+    margin-top:  10px;
+    padding-left: 15px;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
+    background-color: #00a65a;
+    border-color: #00a65a;
+}
+.pagination > li > a, .pagination > li > span{
+    color: #00a65a;
+}
+.pagination > li > a:hover, .pagination > li > span:hover{
+    color: #00a65a;
+}
+
+.no-margin{
+    margin: 0;
+}
+.padding-5{
+    padding: 5px;
+}
+.text-strong{
+    font-weight:600;
+}
+.title-destaque{
+    color: #2E3092;
+    font-weight: bolder;
+}
+.clear{
+    clear: both;
+}
+.font-bold{font-weight: bold;}
+.img-center {
+    display: block;
+    margin: auto;
+}
+.img-right{
+    display: block;
+    float: right;
+}
+.oculta{display: none};
+.table-acao{
+    width: 80px!important;
+}
+.table-dia{
+    width: 200px;
+}
+.table tr.bg-black th{
+    background: #2F4554;
+    border: 1px solid black;
+    color: white;
+}
+.float-rigth{
+    float: right;
+}
+.show{
+    display: block;
+    -webkit-animation: slide-down .5s ease-out;
+    -moz-animation: slide-down .5s ease-out;
+}
+.show-inline{
+    display: inline-block;
+    -webkit-animation: slide-down .5s ease-out;
+    -moz-animation: slide-down .5s ease-out;
+}
+.hide {
+    display: none;
+    -webkit-animation: slide-down .5s ease-out;
+    -moz-animation: slide-down .5s ease-out;
+}
+
+@-webkit-keyframes slide-down {
+    0% { opacity: 0;  }   
+    100% { opacity: 1; }
+}
+@-moz-keyframes slide-down {
+    0% { opacity: 0; }   
+    100% { opacity: 1; }
+}
+#homePage2 .table tr  td{
+    height: 150px;
+    width: 200px;
+    max-width: 200px;
+} 
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th{
+    border: 1px solid #2F4554;
+}
+.margin-5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+/*CONTAINER DO SISTEMA*/
+#tela_sistema {
+    padding-left: 0;
+    display: none;
+}
+/*MENU PRINCIPAL*/ 
+.navbar-default{
+    border-bottom: 4px solid #008241;
+    margin-bottom: 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #006633;
+    padding: 20px 15px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .dropdown-menu>li>a:hover{
+    background-color: #006633;
+    color: white;
+}
+
+@media(max-width: 768px){
+    .navbar-default .navbar-nav > li > a{
+        padding: 15px;
+    }
+}
+/*FIM MENU PRINCIPAL*/
+/*Breadcrumbs */
+#pagina-header>h3{
+    border-bottom: 1px solid #cecece;
+}
+/* panel*/
+.panel-heading a:active, .panel-heading a:hover,.panel-heading a:focus{text-decoration: none;}
+.panel> .panel-heading *{color: white;}
+.panel>.panel-body>a{display: block;}
+.panel>.panel-body>a:focus,.panel>.panel-body>a:hover{text-decoration: none;}
+.panel>.panel-body>a>span{float: right; background-color: #337AB7; color: white; padding: 3px 10px; border-radius: 50%}
+
+
+.panel-info{border-color: #00c0ef !important;}
+.panel-info > .panel-heading{background-color: #00c0ef; border-color: #00c0ef; color: white}
+.panel-info > .panel-body > a {color: #00c0ef}
+.panel-info > .panel-body > a:hover,.panel-info > .panel-body > a:focus {color: #29a0bd}
+.panel-info > .panel-body > a > span{background-color: #00c0ef}
+
+.panel-success{border-color: #00a65a !important;}
+.panel-success > .panel-heading{background-color: #00a65a; border-color: #00a65a; color: white}
+.panel-success > .panel-body > a:hover,.panel-success > .panel-body > a:focus {color: #0a8c50}
+.panel-success > .panel-body > a {color: #00a65a}
+.panel-success > .panel-body > a > span{background-color: #00a65a}
+.panel-success input, .panel-success select, .panel-success textarea{border-color: #00a65a !important}
+
+.panel-danger{border-color: #dd4b39 !important}
+.panel-danger > .panel-heading{background-color: #dd4b39; border-color: #dd4b39; color: white}
+.panel-danger > .panel-body > a:hover,.panel-success > .panel-body > a:focus {color: #b93a2b}
+.panel-danger > .panel-body > a {color: #dd4b39}
+.panel-danger > .panel-body > a > span{background-color: #dd4b39}
+
+.panel-black{border-color: #2F4554 !important}
+.panel-black > .panel-heading{background-color: #2F4554; border-color: #2F4554; color: white}
+.panel-black > .panel-body > a:hover,.panel-success > .panel-body > a:focus {color: #b93a2b}
+.panel-black > .panel-body > a {color: #2F4554}
+.panel-black > .panel-body > a > span{background-color: #2F4554}
+.panel-black input, .panel-black select, .panel-black textarea, .panel-black .select2-container--default .select2-selection--single{border-color: #2F4554}
+.panel-black .has-error .select2-container--default .select2-selection--single{border-color: #a94442}
+.panel textarea{
+    min-width: 100%;
+    max-width: 100%;
+}
+/*CONTAINER PAGINA HOME*/
+@media(max-width: 767px){
+    #homePage .table-responsive > .table-bordered > tbody > tr > td:first-child,  #homePage  .table-responsive > .table-bordered > tbody > tr > th:first-child,  #homePage  .table-responsive > .table-bordered > tfoot > tr > td:first-child,  #homePage  .table-responsive > .table-bordered > tfoot > tr > th:first-child,  #homePage  .table-responsive > .table-bordered > thead > tr > td:first-child,  #homePage  .table-responsive > .table-bordered > thead > tr > th:first-child{
+	border-left:1px solid #2F4554;
+    }
+    #homePage .table-responsive > .table-bordered > tbody > tr > td:last-child,  #homePage  .table-responsive > .table-bordered > tbody > tr > th:last-child,  #homePage  .table-responsive > .table-bordered > tfoot > tr > td:last-child,  #homePage  .table-responsive > .table-bordered > tfoot > tr > th:last-child,  #homePage  .table-responsive > .table-bordered > thead > tr > td:last-child,  #homePage  .table-responsive > .table-bordered > thead > tr > th:last-child{
+	border-right: 1px solid #2F4554;
+    }
+    #homePage .table-responsive > .table-bordered > tbody > tr:last-child > td,  #homePage  .table-responsive > .table-bordered > tbody > tr:last-child > th,  #homePage  .table-responsive > .table-bordered > tfoot > tr:last-child > td,  #homePage  .table-responsive > .table-bordered > tfoot > tr:last-child > th{
+	border: 1px solid #2F4554;
+    }
+}
+
+#homePage .list_prioridade{
+    padding: 5px 10px;
+}
+#homePage .table > tbody > tr > td, #homePage .table > thead > tr > td{
+    padding: 3px
+}
+/*CONTAINER PAGINA HOME*/
+/* CADASTRAR */
+.thumbnail {
+    background-color: #2F4554;
+    padding: 0px;
+    padding-top: 10px;
+}
+#container-usuario .thumbnail img{
+    border: 3px solid white;
+}
+.thumbnail>p{
+    margin: 5px;
+    color: white;
+}
+.thumbnail>.caption{
+    background-color: white;
+    border-top: 8px solid #00a65a;
+}
+.form-control, .input-group-addon{border:1px solid #2F4554;}
+.input-group-addon{background-color: #2F4554; color: white;}
+.has-error .input-group-addon{ background-color: #a94442; color: white;}
+
+/*container cad usuario / admin*/
+#container-usuario-form input[type='file'] {
+    display: none;
+}
+#container-usuario-form form img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #008241;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+/*RODAPE*/
+#rodape{
+    clear: both;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #cecece;
+}
+#rodape>p{margin-bottom: 0; font-size: 12px;}
