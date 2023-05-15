@@ -1,6 +1,6 @@
-# Sirin - Sistema de Reserva de equipamento de Informática
+# IFMARKER - RESERVA
 
-O Sirin é um projeto para fins academico, cujo seu objetivo é organizar o controle de reserva de equipamentos de informática, tais como, computadores, impressora 3d, kit's de arduino e etc...;
+O IFMARKER - RESERVA é um projeto para fins academico, cujo seu objetivo é organizar o controle de reserva de equipamentos de informática, tais como, computadores, impressora 3d, kit's de arduino e etc...;
 
 ## Tecnologias utilizadas
 
