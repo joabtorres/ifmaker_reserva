@@ -2,4 +2,4 @@ RewriteEngine On
 Options -Indexes
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /sirin/index.php?url=$1 [QSA,L]
+RewriteRule ^(.*)$ /ifmaker_reserva/index.php?url=$1 [QSA,L]

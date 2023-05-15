@@ -6,12 +6,12 @@
 
 require 'environment.php';
 $config = array();
-define("NAME_PROJECT", "Sirin - Sistema de Reserva de Equipamentos de Informática");
+define("NAME_PROJECT", "IFMARKER - Reserva");
 if (ENVIRONMENT == 'development') {
     //Raiz
-    define("BASE_URL", "https://localhost/sirin/");
+    define("BASE_URL", "https://localhost/ifmaker_reserva/");
     //Nome do banco
-    $config['dbname'] = 'bd_sirelai';
+    $config['dbname'] = 'bd_name';
     //host
     $config['host'] = 'localhost';
     //usuario
@@ -22,7 +22,7 @@ if (ENVIRONMENT == 'development') {
     //Raiz
     define("BASE_URL", "http://sirelai.joabtorres.com.br/");
     //Nome do banco
-    $config['dbname'] = 'bd_sirelai';
+    $config['dbname'] = 'bd_name';
     //host
     $config['host'] = 'localhost';
     //usuario
